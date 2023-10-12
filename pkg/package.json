@@ -1,0 +1,16 @@
+{
+  "name": "joint_sim",
+  "version": "0.2.0",
+  "files": [
+    "joint_sim_bg.wasm",
+    "joint_sim.js",
+    "joint_sim_bg.js",
+    "joint_sim.d.ts"
+  ],
+  "module": "joint_sim.js",
+  "types": "joint_sim.d.ts",
+  "sideEffects": [
+    "./joint_sim.js",
+    "./snippets/*"
+  ]
+}
